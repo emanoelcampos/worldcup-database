@@ -1,24 +1,23 @@
-# World Cup Database
+# World Cup Database 
 
-This project is a documentation of my learning from the "World Cup Database" course of the relational database certificate from [freeCodeCamp](https://www.freecodecamp.org/learn/relational-database).
+*Learning Documentation*
 
-## About the Project
-
-The main goal of this project is to insert World Cup games information into `PostgreSQL` and then perform queries on the database to obtain useful statistics.
+This document serves as a record of my learning journey from the "World Cup Database" course, part of the relational database certificate from [freeCodeCamp](https://www.freecodecamp.org/learn/relational-database). The project involved creating a `Bash` script to insert World Cup games data into a `PostgreSQL` database, and subsequently performing queries on the database to extract useful statistics.
 
 ## Database Diagram
 
-![worldcup-db-diagram.svg](images%2Fworldcup-db-diagram.svg)
+The database structure can be visualized through the diagram. The diagram provides a clear representation of how the tables in the database are related and the type of data stored in each table.
 
+![Database Diagram](images%2Fworldcup-db-diagram.svg)
 
-## Technologies Used
+## Bash Scripting and PostgreSQL
 
-- Bash Scripting: Used to insert World Cup games data into the database.
-- PostgreSQL: Relational database used to store and query the World Cup games data.
+The project provided an opportunity to learn and practice `Bash` scripting and `PostgreSQL`. The Bash script was used to automate the process of inserting World Cup games data into the `PostgreSQL` database. This involved understanding the structure of the data, writing the script to read the data, and then using `SQL` commands to insert the data into the appropriate tables in the database.
 
-## Features
+## SQL Queries
 
-- Insertion of World Cup games data into the database through a Bash script.
-- SQL queries to obtain useful statistics from the inserted data.
+After the data insertion, SQL queries were used to extract useful statistics from the database. This involved understanding the relationships between the tables in the database and writing complex `SQL` queries to join these tables and extract the required information. This process helped in gaining a deeper understanding of `SQL` and relational databases.
 
-This project is a great way to learn and practice relational database concepts and `Bash` scripting.
+## What I Learned
+
+Through this project, I gained hands-on experience with `Bash` scripting, `PostgreSQL`, and SQL queries. I learned how to automate data insertion into a database using a script and how to extract useful information from a database using `SQL` queries. This project was a practical application of the concepts learned in the "World Cup Database" course and served as a great learning experience.
